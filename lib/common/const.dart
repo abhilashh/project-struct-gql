@@ -1,5 +1,8 @@
 class Const {
 
+//project config
+static const String projectTitle = "Flutter Project Structure";
+
 // utility helper strings
   static const String noInternet = "No internet ";
   static const String checkDomain = 'google.com';
@@ -13,7 +16,8 @@ class Const {
   static const name = "Name";
   static const native = "Native";
   static const capital = "Capital";
-
+  static const buttonText = "View more";
+  
 
 //strings on view.dart
 static const emoji = "Emoji";
