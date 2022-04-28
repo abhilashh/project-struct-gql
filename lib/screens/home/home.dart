@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
                             HomeWidgets.keyValueWiget(Const.native,value.countryData!.country!.native!.toString()),
                             HomeWidgets.keyValueWiget(Const.capital,value.countryData!.country!.capital!.toString()), 
                              const SizedBox(height: 20,),
-                            ElevatedButton(onPressed: ()=>NavRoute.navToView(context), child:const Text("View more"))
+                            ElevatedButton(onPressed: ()=>NavRoute.navToView(context), child:const Text(Const.buttonText))
                           ],
                         )
                       : Text(value.errorlog.toString(),textAlign: TextAlign.center,);

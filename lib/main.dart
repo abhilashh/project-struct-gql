@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projectstructure/Routes/nav_generation.dart';
+import 'package:projectstructure/common/const.dart';
 import 'package:projectstructure/providers/country_provider.dart';
 import 'package:projectstructure/screens/home/home.dart';
 import 'package:provider/provider.dart';
@@ -17,7 +18,7 @@ class Countries extends StatelessWidget {
       create: (context) => CountryProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Project Structure',
+        title: Const.projectTitle,
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
